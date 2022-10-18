@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: MyString
+  : 1
+  nome: MyString
+  : MyString
+  anoletivo: MyString
+  : MyString
+  Turma: MyString
+  : one
+
+two:
+  id: MyString
+  : 1
+  nome: MyString
+  : MyString
+  anoletivo: MyString
+  : MyString
+  Turma: MyString
+  : two

@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: MyString
+  : 1
+  nome: MyString
+  : MyString
+  turma: MyString
+  : one
+
+two:
+  id: MyString
+  : 1
+  nome: MyString
+  : MyString
+  turma: MyString
+  : two

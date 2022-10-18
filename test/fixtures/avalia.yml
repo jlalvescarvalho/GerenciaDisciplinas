@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: MyString
+  : 1
+  pontos: MyString
+  : 1
+  observacao: MyString
+  : MyString
+  Atividade: MyString
+  : one
+  Aluno: MyString
+  : one
+
+two:
+  id: MyString
+  : 1
+  pontos: MyString
+  : 1
+  observacao: MyString
+  : MyString
+  Atividade: MyString
+  : two
+  Aluno: MyString
+  : two

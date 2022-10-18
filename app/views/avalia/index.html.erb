@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Avalia</h1>
+
+<div id="avalia">
+  <% @avalia.each do |avalium| %>
+    <%= render avalium %>
+    <p>
+      <%= link_to "Show this avalium", avalium %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New avalium", new_avalium_path %>

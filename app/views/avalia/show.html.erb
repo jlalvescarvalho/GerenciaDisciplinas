@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @avalium %>
+
+<div>
+  <%= link_to "Edit this avalium", edit_avalium_path(@avalium) %> |
+  <%= link_to "Back to avalia", avalia_path %>
+
+  <%= button_to "Destroy this avalium", @avalium, method: :delete %>
+</div>

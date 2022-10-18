@@ -1,0 +1,67 @@
+<%= form_with(model: avalium) do |form| %>
+  <% if avalium.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(avalium.errors.count, "error") %> prohibited this avalium from being saved:</h2>
+
+      <ul>
+        <% avalium.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :id, style: "display: block" %>
+    <%= form.text_field :id %>
+  </div>
+
+  <div>
+    <%= form.label :, style: "display: block" %>
+    <%= form.number_field : %>
+  </div>
+
+  <div>
+    <%= form.label :pontos, style: "display: block" %>
+    <%= form.text_field :pontos %>
+  </div>
+
+  <div>
+    <%= form.label :, style: "display: block" %>
+    <%= form.number_field : %>
+  </div>
+
+  <div>
+    <%= form.label :observacao, style: "display: block" %>
+    <%= form.text_field :observacao %>
+  </div>
+
+  <div>
+    <%= form.label :, style: "display: block" %>
+    <%= form.text_field : %>
+  </div>
+
+  <div>
+    <%= form.label :Atividade, style: "display: block" %>
+    <%= form.text_field :Atividade %>
+  </div>
+
+  <div>
+    <%= form.label :_id, style: "display: block" %>
+    <%= form.text_field :_id %>
+  </div>
+
+  <div>
+    <%= form.label :Aluno, style: "display: block" %>
+    <%= form.text_field :Aluno %>
+  </div>
+
+  <div>
+    <%= form.label :_id, style: "display: block" %>
+    <%= form.text_field :_id %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
